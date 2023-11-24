@@ -1,6 +1,6 @@
-# task-manager
+# task-manager - Trello clone
 
-This template should help get you started developing with Vue 3 in Vite.
+a trello clone using vue 3.
 
 ## Recommended IDE Setup
 
