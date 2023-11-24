@@ -34,6 +34,7 @@ const updateData = async () => {
     await updateTask( id, props.data )
     editTitle.value = false
     editDescription.value = false
+    showDatePicker.value = false
     resetInputs()
 }
 
