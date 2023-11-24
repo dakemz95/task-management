@@ -7,7 +7,7 @@ const drawer = ref(false)
 
 <template>
     <v-app>
-        <v-app-bar title="Application bar">
+        <v-app-bar title="task-management">
             <template v-slot:prepend>
                 <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
             </template>
@@ -15,7 +15,7 @@ const drawer = ref(false)
 
         <v-navigation-drawer v-model="drawer">
             <v-list>
-                <v-list-item title="Navigation drawer"></v-list-item>
+                <v-list-item title="Navigation"></v-list-item>
             </v-list>
         </v-navigation-drawer>
 
