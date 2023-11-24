@@ -65,8 +65,8 @@ getData()
         tag="div"
         class="list__container"
     >
-        <template #item="{element: list}">
-            <List :title="list.title" :id="list._uuid">
+        <template #item="{element: list}" >
+            <List :title="list.title" :id="list._uuid" :style="`cursor: ${drag ? 'grabbing' : 'grab'};`">
                 <draggable 
                     v-model="list.tasks"
                     group="tasks" 
@@ -75,7 +75,7 @@ getData()
                     item-key="_uuid"
                 >
                     <template #item="{element: task}">
-                        <Task :data="task"></Task>
+                        <Task :data="task" :style="`cursor: ${drag ? 'grabbing' : 'grab'};`"></Task>
                     </template>
                 </draggable>
             </List>

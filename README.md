@@ -1,6 +1,6 @@
 # task-manager - Trello clone
 
-a trello clone using vue 3.
+A trello clone using vue 3.
 
 ## Recommended IDE Setup
 
