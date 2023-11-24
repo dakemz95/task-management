@@ -101,7 +101,7 @@ const deleteCurrentTask = async  () => {
                         auto-grow
                         class="mb-4 w-100 h-auto"
                         density="compact"
-                        placeholder="Insert the task title"
+                        placeholder="Insert the task description"
                         append-inner-icon="mdi-close"
                         @click:append-inner="resetInputs"
                     ></v-textarea>
